@@ -4,7 +4,7 @@
 // Test your function with different numbers of arguments.
 
 function subtract(...numbers) {
-  // Your code here
+  return numbers.reduce((a, b) => a - b);
 }
 
-console.log(subtract(10, 2, 3)); // Example usage
+console.log(subtract(10, 2, 3));
